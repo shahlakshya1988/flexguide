@@ -1,75 +1,104 @@
 body,
 button,
 input,
-textarea{
-    color:#000;
-    font-family: 'Asap',sans-serif;
-    font-size:16px;
-    line-height: 1.8;
+textarea {
+  color: #000;
+  font-family: "Asap", sans-serif;
+  font-size: 16px;
+  line-height: 1.8;
 }
-body{
-    background-color:#ededed;
-    margin:0;
-    font-family: 'Asap',sans-serif;
+body {
+  background-color: #ededed;
+  margin: 0;
+  font-family: "Asap", sans-serif;
+}
+
+img{
+    display: block;
+    width:100%;
+    height: auto;
 }
 
 header,
-footer{
-    background-color:#000;
-    height: 100px;
+footer {
+  background-color: #000;
+  height: 100px;
 }
-.sidebar-right{
-    background-color:blue;
-    color:white;
+.sidebar-right {
+  background-color: blue;
+  color: white;
 }
-h1{
-    color:red;
-    margin:0;
+h1 {
+  color: red;
+  margin: 0;
 }
-p{
-    margin:0;
+p {
+  margin: 0;
 }
-@media screen and (min-width:1120px){
-    .content-area{
-        display: flex;
-    }
-    .sidebar-right{
-        flex:0 0 320px;
-    }
+@media screen and (min-width: 1120px) {
+  .content-area {
+    display: flex;
+  }
+  .sidebar-right {
+    flex: 0 0 320px;
+  }
 }
 
-.site-header{
-    height: 400px;
-    display: flex;
-    flex-flow: column;
+.site-header {
+  height: 400px;
+  display: flex;
+  flex-flow: column;
 }
-.site-info{
-    flex-grow: 1;
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
+.site-info {
+  flex-grow: 1;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
 }
-.site-title{
-    margin:0;
-    font-size:2em;
-    font-weight: 300;
-    text-align: center;
-    color:#fff;
-    text-transform: uppercase;
+.site-title {
+  margin: 0;
+  font-size: 2em;
+  font-weight: 300;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
 }
-.site-description{
-    color:#f6d200;
-    text-align: center;
-    font-size:1.2em;
-    font-style: italic;
+.site-description {
+  color: #f6d200;
+  text-align: center;
+  font-size: 1.2em;
+  font-style: italic;
 }
-.main-menu{
-    padding:1em 1em;
-    color:#000;
+.main-menu {
+  padding: 1em 1em;
+  color: #000;
+  background: #f6d200;
+}
+@media screen and (min-width: 1120px) {
+  .site-title {
+    font-size: 4em;
+  }
+}
+
+.main-content-area{
+    padding:2em;
+
+}
+.post{
+    background:#fff;
+    margin-bottom:1em;
+}
+.post a{
+    color:black;
+    text-decoration:none;
+}
+.post-content{
+    padding:0px 40px 20px;
+}
+.post-content h2{
     background:#f6d200;
-}
-@media screen and (min-width:1120px){
-    .site-title{
-        font-size:4em;
-    }
+    color:#000;
+    padding:20px;
+    margin:0px -40px 30px;
+    text-align: center;
 }
