@@ -177,3 +177,49 @@ p.movie-story{
     order:2;
   }
 }
+
+.download-card{
+  margin-bottom:1em;
+}
+.download-content{
+  background:#fff;
+}
+.download-content a{
+  background:#000;
+  color:#fff;
+  padding:1em 2em;
+  text-decoration:none;
+  text-transform: capitalize;
+}
+.download-content a i{
+  font-size:2.5em;
+}
+.download-info{
+  padding:1em 2em;
+}
+
+.download-info h4{
+  margin:0;
+}
+.download-info p{
+  margin:0;
+  font-size: 0.9em;
+}
+.download-cast img{
+  height: 60px;
+  width:60px;
+  border-radius: 50%;
+}
+
+.donwload-rating{
+  background:#f6d200;
+  padding:1em 2em;
+  color:#000;
+  font-family: 0.9em;
+}
+
+.donwload-rating .rate{
+  font-size:2.5em;
+  font-weight: bold;
+  margin-bottom:0.25em;
+}
