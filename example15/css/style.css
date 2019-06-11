@@ -15,7 +15,7 @@ body{
 
 header,
 footer{
-    background-color: green;
+    background-color:#000;
     height: 100px;
 }
 .sidebar-right{
@@ -35,5 +35,41 @@ p{
     }
     .sidebar-right{
         flex:0 0 320px;
+    }
+}
+
+.site-header{
+    height: 400px;
+    display: flex;
+    flex-flow: column;
+}
+.site-info{
+    flex-grow: 1;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+.site-title{
+    margin:0;
+    font-size:2em;
+    font-weight: 300;
+    text-align: center;
+    color:#fff;
+    text-transform: uppercase;
+}
+.site-description{
+    color:#f6d200;
+    text-align: center;
+    font-size:1.2em;
+    font-style: italic;
+}
+.main-menu{
+    padding:1em 1em;
+    color:#000;
+    background:#f6d200;
+}
+@media screen and (min-width:1120px){
+    .site-title{
+        font-size:4em;
     }
 }
