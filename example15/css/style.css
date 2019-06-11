@@ -223,3 +223,49 @@ p.movie-story{
   font-weight: bold;
   margin-bottom:0.25em;
 }
+
+.download-content{
+    display: flex;
+    flex-flow:column;
+    align-items:stretch;
+}
+.download-content a{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.download-genre,.download-cast{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.donwload-rating{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-flow: column;
+}
+
+.download-info h4{
+    flex-basis: 20%;
+}
+
+.download-genre{
+    margin-bottom:10px;
+}
+
+@media screen and (min-width: 810px){
+    .download-content{
+        display: flex;
+        flex-flow: row;
+    }
+    .download-content,.donwload-rating{
+        flex-grow: 1;
+    }
+    .download-info{
+        flex-grow: 2;
+    }
+}
